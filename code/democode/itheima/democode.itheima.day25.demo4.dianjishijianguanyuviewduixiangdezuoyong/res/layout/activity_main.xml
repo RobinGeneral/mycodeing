@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.demo4.dianjishijianguanyuviewduixiangdezuoyong.MainActivity" 
+    android:orientation="vertical" >
+
+    <TextView 
+        android:text="点击事件中关于view对象的作用"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    
+    <Button
+        android:id="@+id/bu_1" 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="按钮一"
+        android:onClick="getClick"
+        />
+
+    <Button 
+        android:id="@+id/bu_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="按钮二"
+        android:onClick="getClick"
+        />
+    
+    <Button 
+        android:id="@+id/bu_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="按钮三"
+        android:onClick="getClick"
+        />
+    
+</LinearLayout>

@@ -1,0 +1,85 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+	
+    <!-- 线性布局案例
+    
+     -->
+    
+    <LinearLayout
+        android:layout_weight="1"
+		android:layout_width="match_parent"
+		android:layout_height="0dp"
+		android:orientation="horizontal"
+        >
+        
+        <TextView 
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:background="#FF0000"
+            />
+        
+        <TextView 
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:background="#EEB422"
+            />
+        
+        <TextView 
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:background="#D1EEEE"
+            />
+        
+        <TextView 
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:background="#C7C7C7"
+            />
+        
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        >
+        
+         <TextView 
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:background="#A52A2A"
+            />
+         
+         <TextView 
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:background="#8B8386"
+            />
+         
+         <TextView 
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:background="#8968CD"
+            />
+         
+         <TextView 
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:background="#6B8E23"
+            />
+        
+    </LinearLayout>
+
+</LinearLayout>

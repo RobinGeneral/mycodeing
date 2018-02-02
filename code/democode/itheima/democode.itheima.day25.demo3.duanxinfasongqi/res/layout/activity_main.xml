@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.duanxinfasongqi.demo.MainActivity" 
+    android:orientation="vertical">
+    
+    <!-- 新加入的几个属性说明 :
+    	 1.android:inputType inputType中文意思的输入类型,是指输入的文本框的数据类型就像是html/css里面的技术一样是用的密码类型的还是普通的1文本类型的.
+    	 2.android:hint      hint中文意思是暗示,意思就是说这里面的文本只是告诉用户怎么去填写这个表单,当用户点击时这个文字就会取消,类似于web当中的文字点击清除效果.
+     -->
+    <EditText 
+		android:id="@+id/et_phone"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"    
+		android:inputType="phone"
+		android:hint="请输入对方号码"    
+        />
+    
+    <!-- 新加入的几个属性说明 :
+    	 1.android:gravity 当文本框的行数较多时大于2行(猜测),那么就使用这个属性来控制文本的流向,是从中间的行开始放入文字,还是从左上角开始放入文字.
+    	                                                                   这样让UI界面好看一些.
+     -->
+    <EditText
+		android:id="@+id/et_content"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"  
+		android:lines="5"
+		android:hint="请输入短信内容"
+		android:gravity="top"
+        />
+    
+    <!-- 新加入的几个属性说明:
+    	 1.android:onClick 这个标签类似于web中的前端技术js内置了onClick点击事件一样,只要用户去点击了设置了带有onClick这一属性的就会出现一些效果.
+     -->
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="发送"
+        android:onClick="send"
+        />
+    
+</LinearLayout>
